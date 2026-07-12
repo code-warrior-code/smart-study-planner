@@ -30,3 +30,7 @@ Smart Study Planner — a React web app that generates and adaptively re-plans s
 
 - Don't add a backend/database yet — keep it frontend-only until the core flow works
 - Don't over-engineer with extra libraries before the basic flow is solid
+
+- Always specify exact fields and validation rules explicitly, not just the general feature.
+- Always ask AI to write and run tests alongside new features, not just the feature code.
+- Check for both UI-level and logic-level validation (e.g. date picker min + separate validation check), not just one.
